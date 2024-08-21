@@ -1,0 +1,94 @@
+body {
+    background-color: #f8e6e0; /* Warna pink muda untuk nuansa romantis */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 50px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+}
+
+.password-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.password-container input[type="password"] {
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #e75480;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 20px; /* Jarak antara input dan tombol */
+}
+
+.password-container button {
+    padding: 10px 20px;
+    background-color: #e75480;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.password-container button:hover {
+    background-color: #ff99a5;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    max-width: 500px;
+}
+
+h1, p {
+    font-family: 'Great Vibes', cursive;
+    font-size: 24px;
+    color: #232027;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #e75480;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e75480;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff99a5;
+}
+
+.hidden {
+    display: none;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.audio-player {
+    align-self: center;
+    margin-bottom: 20px;
+}
